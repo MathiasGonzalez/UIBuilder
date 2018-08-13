@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+export class CatalogDefinition{
+    /**
+     *
+     */
+    constructor() {         
+    }
+}
