@@ -12,6 +12,9 @@ export class AppComponent {
 
   lines: Array<string>;
 
+  editorOptions = {theme: 'vs-dark', language: 'javascript'};
+  code: string= 'function x() {\nconsole.log("Hello world!");\n}';
+
   btnClick(): void {
     // alert(jsWrapper)
     // alert(jsWrapper.LoadCatalog());
