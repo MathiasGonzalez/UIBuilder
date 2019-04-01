@@ -25,7 +25,9 @@ namespace CFETest
             var appStartup = Application.StartupPath;
 
 
-            string indexPath = string.Format("{0}/WebApp/index.html", appStartup);
+            //string indexPath = string.Format("{0}/WebApp/index.html", appStartup);
+            string indexPath = string.Format("{0}/primeng-quickstart-cli-master/index.html", appStartup);
+            
 
             browser = new ChromiumWebBrowser(indexPath)
             {

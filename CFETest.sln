@@ -5,6 +5,52 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFETest", "CFETest.csproj", "{059C873D-18B1-48E0-9381-D18BC1C455F0}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebApp", "WebApp\", "{A11F498F-BF74-461B-9091-4B92B2A5D256}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53155"
+		Debug.AspNetCompiler.PhysicalPath = "WebApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53155\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53155"
+		Release.AspNetCompiler.PhysicalPath = "WebApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53155\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53155"
+		SlnRelativePath = "WebApp\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitManager", "GitManager\GitManager.csproj", "{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTester", "GitTester\GitTester.csproj", "{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "primeng-quickstart-cli-master", "primeng-quickstart-cli-master\", "{38C7A52D-60AB-403F-929B-58C858EFD7BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64606"
+		Debug.AspNetCompiler.PhysicalPath = "primeng-quickstart-cli-master\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64606\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64606"
+		Release.AspNetCompiler.PhysicalPath = "primeng-quickstart-cli-master\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64606\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64606"
+		SlnRelativePath = "primeng-quickstart-cli-master\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +61,22 @@ Global
 		{059C873D-18B1-48E0-9381-D18BC1C455F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059C873D-18B1-48E0-9381-D18BC1C455F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059C873D-18B1-48E0-9381-D18BC1C455F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11F498F-BF74-461B-9091-4B92B2A5D256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11F498F-BF74-461B-9091-4B92B2A5D256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11F498F-BF74-461B-9091-4B92B2A5D256}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11F498F-BF74-461B-9091-4B92B2A5D256}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
