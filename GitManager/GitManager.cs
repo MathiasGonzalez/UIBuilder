@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace GitManager
         Repository _repository;
 
 
-        Repository repository
+        public Repository repository
         {
             get { return _repository; }
         }
@@ -29,12 +30,38 @@ namespace GitManager
         }
 
 
-        public string InitRepo(string path, bool isBare = false)
+        public static string InitRepo(string path, bool isBare = false)
+        {
+            if (Directory.Exists(path))
+            {
+
+                var result = Repository.Init(path, isBare);
+
+                return result;
+            }
+            else
+            {
+                throw new Exception("path : " + path + " : No existe");
+            }
+        }
+
+        public List<string> Untracked()
         {
 
-            var result = Repository.Init(path, isBare);
+            var status = this.repository.RetrieveStatus();
 
-            return result;
+            if (status.IsDirty) {
+                var untracked = status.Untracked.ToList();
+                return untracked.Select(x => x.FilePath +" State : "+ x.State.ToString() ).ToList();
+            }
+            else
+                return new List<string>();
+
+        }
+
+        public void Stage(string path)
+        {
+            Commands.Stage(this.repository, path);
         }
 
         public void Dispose()

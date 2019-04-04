@@ -28,8 +28,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebApp", "WebApp\", "{A11F4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitManager", "GitManager\GitManager.csproj", "{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTester", "GitTester\GitTester.csproj", "{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "primeng-quickstart-cli-master", "primeng-quickstart-cli-master\", "{38C7A52D-60AB-403F-929B-58C858EFD7BE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -51,6 +49,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "primeng-quickstart-cli-mast
 		SlnRelativePath = "primeng-quickstart-cli-master\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTest", "GitTest\GitTest.csproj", "{0DE47C14-C2B4-4132-8F5E-4D1D4DCB3CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,14 +69,14 @@ Global
 		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD27C851-FE2B-415F-9A6D-528DF3EBABC7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F7B321C-2AA1-4241-AAC4-DF9D5C31F644}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{38C7A52D-60AB-403F-929B-58C858EFD7BE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0DE47C14-C2B4-4132-8F5E-4D1D4DCB3CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE47C14-C2B4-4132-8F5E-4D1D4DCB3CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE47C14-C2B4-4132-8F5E-4D1D4DCB3CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE47C14-C2B4-4132-8F5E-4D1D4DCB3CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

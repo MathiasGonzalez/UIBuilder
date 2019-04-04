@@ -26,6 +26,8 @@ export class AppComponent implements OnInit {
 
     cols: any[];
 
+    visibleSidebar1=true;
+
     constructor(private carService: CarService) { }
 
     ngOnInit() {

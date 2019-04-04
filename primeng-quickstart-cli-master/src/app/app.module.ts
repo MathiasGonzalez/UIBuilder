@@ -7,7 +7,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { DialogModule } from 'primeng/dialog';
-
+import {SidebarModule} from 'primeng/sidebar';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -22,7 +22,8 @@ import { AppComponent } from './app.component';
         HttpClientModule,
         InputTextModule,
         DialogModule,
-        ButtonModule
+        ButtonModule,
+        SidebarModule
     ],
     providers: [],
     bootstrap: [AppComponent]
